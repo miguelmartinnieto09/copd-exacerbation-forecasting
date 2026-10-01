@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+
+# VS Code local settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+
+# Local data
+data/*
+!data/README.md
+
+# OS files
+.DS_Store
+Thumbs.db
