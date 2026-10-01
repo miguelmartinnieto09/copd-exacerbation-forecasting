@@ -114,7 +114,7 @@ def validate_lag_boundary_missingness(
         missing_lag0 = df[lag0_col].isna().sum()
 
         for lag in range(1, MAX_LAG + 1):
-            lag_col = f"{base_name}_LAG{lag}"
+            lag_col = f"{base_name}_LAG-{lag}"
 
             if lag_col not in df.columns:
                 continue

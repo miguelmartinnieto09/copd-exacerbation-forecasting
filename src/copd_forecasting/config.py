@@ -34,3 +34,6 @@ MAX_LAG = 7
 # ---------------------------------------------------------------------
 
 DAILY_SHEET_NAME = "EPOC diario"
+
+RAW_DATA_FILE = RAW_DATA_DIR / "copd_daily_data.xlsx"
+PROCESSED_DATA_FILE = PROCESSED_DATA_DIR / "copd_daily_data_cleaned.xlsx"
