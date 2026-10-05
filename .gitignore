@@ -23,3 +23,5 @@ data/*
 Thumbs.db
 
 *.egg-info/
+
+catboost_info/

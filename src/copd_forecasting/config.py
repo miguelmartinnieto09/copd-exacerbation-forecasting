@@ -19,6 +19,11 @@ FEATURE_SELECTION_FILE = (
     / "feature_selection_results.json"
 )
 
+CV_RESULTS_FILE = (
+    REPORTS_DIR
+    / "temporal_cv_results.csv"
+)
+
 # ---------------------------------------------------------------------
 # Study configuration
 # ---------------------------------------------------------------------
