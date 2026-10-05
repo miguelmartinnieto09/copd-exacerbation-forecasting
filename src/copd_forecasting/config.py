@@ -24,6 +24,16 @@ CV_RESULTS_FILE = (
     / "temporal_cv_results.csv"
 )
 
+FINAL_METRICS_FILE = (
+    REPORTS_DIR
+    / "final_test_metrics.csv"
+)
+
+SHAP_IMPORTANCE_FILE = (
+    REPORTS_DIR
+    / "shap_feature_importance.csv"
+)
+
 # ---------------------------------------------------------------------
 # Study configuration
 # ---------------------------------------------------------------------

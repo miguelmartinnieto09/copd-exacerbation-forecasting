@@ -19,6 +19,12 @@ from sklearn.neural_network import MLPClassifier
 RANDOM_STATE = 42
 
 
+MODEL_NAMES = [
+    "LightGBM",
+    "CatBoost",
+    "MLP",
+]
+
 # ---------------------------------------------------------------------
 # Final hyperparameter configurations
 # ---------------------------------------------------------------------
