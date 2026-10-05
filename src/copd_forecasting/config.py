@@ -14,6 +14,10 @@ PROCESSED_DATA_DIR = DATA_DIR / "processed"
 REPORTS_DIR = PROJECT_ROOT / "reports"
 FIGURES_DIR = REPORTS_DIR / "figures"
 
+FEATURE_SELECTION_FILE = (
+    REPORTS_DIR
+    / "feature_selection_results.json"
+)
 
 # ---------------------------------------------------------------------
 # Study configuration
