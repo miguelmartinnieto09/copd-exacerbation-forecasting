@@ -1,0 +1,13 @@
+Strategy,Subset,Model,Mean_AUC
+expanding,A,CatBoost,0.5672
+expanding,A,LightGBM,0.5737
+expanding,A,MLP,0.575
+expanding,B,CatBoost,0.587
+expanding,B,LightGBM,0.5816
+expanding,B,MLP,0.5828
+sliding,A,CatBoost,0.5689
+sliding,A,LightGBM,0.5615
+sliding,A,MLP,0.5621
+sliding,B,CatBoost,0.5807
+sliding,B,LightGBM,0.574
+sliding,B,MLP,0.5758
