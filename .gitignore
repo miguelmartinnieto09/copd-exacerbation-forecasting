@@ -25,3 +25,5 @@ Thumbs.db
 *.egg-info/
 
 catboost_info/
+
+.pytest_cache/
