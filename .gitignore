@@ -27,3 +27,11 @@ Thumbs.db
 catboost_info/
 
 .pytest_cache/
+
+# Build artifacts
+build/
+dist/
+
+# Test coverage
+.coverage
+htmlcov/
